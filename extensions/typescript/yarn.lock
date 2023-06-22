@@ -14,9 +14,17 @@ applicationinsights@0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/applicationinsights/-/applicationinsights-0.18.0.tgz#162ebb48a383408bc4de44db32b417307f45bbc1"
 
-semver@4.3.6:
-  version "4.3.6"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-4.3.6.tgz#300bc6e0e86374f7ba61068b5b1ecd57fc6532da"
+lru-cache@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
+  dependencies:
+    yallist "^4.0.0"
+
+semver@7.5.2:
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.2.tgz#5b851e66d1be07c1cdaf37dfc856f543325a2beb"
+  dependencies:
+    lru-cache "^6.0.0"
 
 vscode-extension-telemetry@^0.0.8:
   version "0.0.8"
@@ -32,3 +40,7 @@ vscode-nls@^3.1.2:
 winreg@1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/winreg/-/winreg-1.2.3.tgz#93ad116b2696da87d58f7265a8fcea5254a965d5"
+
+yallist@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
